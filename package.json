@@ -1,0 +1,27 @@
+{
+  "name": "second-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "jest-image-snapshot": "^4.2.0",
+    "prettier": "^2.1.2",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-snapshots": "jest --config=jest.config.js --detectOpenHandles --forceExit",
+    "test-snapshots-update": "jest --config=jest.config.js ---updateSnapshot --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deividcingolani/visualTestingPuppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deividcingolani/visualTestingPuppeteer/issues"
+  },
+  "homepage": "https://github.com/deividcingolani/visualTestingPuppeteer#readme"
+}
